@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body{
+    color:black;
+}
+#tasklist::-webkit-scrollbar{
+  background-color: transparent;
+  height: 5px;
+}
+#tasklist::-webkit-scrollbar-thumb{
+  background-color: rgb(143, 143, 143);
+  border-radius: 50px;
+}
+.txt:hover{
+color:black;
+}
+.emp h3{  
+padding:10px;  
+border:1px solid white;
+
+}
+.tl{
+  box-shadow:20px 20px 20px black;
+}
+.tln{
+  box-shadow:20px 20px 20px black;
+}
+.adminblock{
+background:white;
+}
+.loginPage{
+background-repeat:no-repeat;
+background-size:cover;
+}
+.emp{
+background:
+}
